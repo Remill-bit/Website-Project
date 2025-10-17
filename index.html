@@ -29,9 +29,9 @@
   <!-- Home -->
   <section id="home" class="hero">
     <div class="hero-content">
-      <h1>Train Like a Champion</h1>
-      <p>Join the most dynamic basketball training camp in the Philippines!</p>
-      <a href="#programs" class="btn">Explore Programs</a>
+      <h1 class="fade-in">Train Like a Champion</h1>
+      <p class="fade-in-delay">Join the most dynamic basketball training camp in the Philippines!</p>
+      <a href="#programs" class="btn fade-in-delay-2">Explore Programs</a>
     </div>
   </section>
 
@@ -41,14 +41,14 @@
       <div class="about-text">
         <h2>About Us</h2>
         <p>
-          Welcome to Elite Ball — where passion meets performance! 
+          Welcome to Elite Ball – where passion meets performance! 
           Our camp helps athletes of all skill levels improve fundamentals, 
           discipline, and teamwork through modern basketball training.
         </p>
         <p>
           With skilled coaches and a focus on growth, we make sure every player 
           learns how to think, move, and perform like a true athlete. 
-          We believe that greatness starts with effort — and we’ll push you to your limits 
+          We believe that greatness starts with effort – and we'll push you to your limits 
           while keeping the game fun, competitive, and motivating.
         </p>
         <p>
@@ -67,28 +67,136 @@
   <section id="programs" class="programs">
     <h2>Our Programs</h2>
     <div class="program-list">
-      <div class="program">
-        <img src="https://thespun.com/.image/t_share/MTgzMTI4MjU3MjIzNDAyOTE1/los-angeles-lakers-v-boston-celtics.jpg" alt="Passing Drills">
+      <div class="program" data-program="passing">
+        <div class="program-image-container">
+          <img src="https://thespun.com/.image/t_share/MTgzMTI4MjU3MjIzNDAyOTE1/los-angeles-lakers-v-boston-celtics.jpg" alt="Passing Drills">
+          <div class="program-overlay">
+            <i class="fa-solid fa-basketball"></i>
+          </div>
+        </div>
         <h3>Passing Drills</h3>
         <p>Master court vision and deliver accurate passes under pressure.</p>
+        <button class="learn-more-btn">Learn More</button>
+        
+        <!-- Expandable Details -->
+        <div class="program-details">
+          <h4>What You'll Learn:</h4>
+          <ul>
+            <li><i class="fa-solid fa-check"></i> Chest, bounce, and overhead passes</li>
+            <li><i class="fa-solid fa-check"></i> No-look and behind-the-back techniques</li>
+            <li><i class="fa-solid fa-check"></i> Reading defensive positioning</li>
+            <li><i class="fa-solid fa-check"></i> Fast break passing strategies</li>
+          </ul>
+          <div class="program-stats">
+            <div class="stat">
+              <span class="stat-number">8</span>
+              <span class="stat-label">Sessions</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">45m</span>
+              <span class="stat-label">Per Session</span>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div class="program">
-        <img src="https://cdn.nba.com/teams/legacy/www.nba.com/bulls/sites/bulls/files/ss_3pt_curry.jpg" alt="Shooting Skills">
+      <div class="program" data-program="shooting">
+        <div class="program-image-container">
+          <img src="https://cdn.nba.com/teams/legacy/www.nba.com/bulls/sites/bulls/files/ss_3pt_curry.jpg" alt="Shooting Skills">
+          <div class="program-overlay">
+            <i class="fa-solid fa-basketball"></i>
+          </div>
+        </div>
         <h3>Shooting Skills</h3>
         <p>Develop a consistent, game-ready jump shot like the pros.</p>
+        <button class="learn-more-btn">Learn More</button>
+        
+        <!-- Expandable Details -->
+        <div class="program-details">
+          <h4>What You'll Learn:</h4>
+          <ul>
+            <li><i class="fa-solid fa-check"></i> Proper shooting form and mechanics</li>
+            <li><i class="fa-solid fa-check"></i> Free throw consistency training</li>
+            <li><i class="fa-solid fa-check"></i> Three-point shooting techniques</li>
+            <li><i class="fa-solid fa-check"></i> Shooting off the dribble</li>
+          </ul>
+          <div class="program-stats">
+            <div class="stat">
+              <span class="stat-number">10</span>
+              <span class="stat-label">Sessions</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">60m</span>
+              <span class="stat-label">Per Session</span>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div class="program">
-        <img src="https://www.sportscasting.com/wp-content/uploads/2023/05/Jayson-Tatum-1.jpg" alt="High IQ">
+      <div class="program" data-program="iq">
+        <div class="program-image-container">
+          <img src="https://www.sportscasting.com/wp-content/uploads/2023/05/Jayson-Tatum-1.jpg" alt="High IQ">
+          <div class="program-overlay">
+            <i class="fa-solid fa-basketball"></i>
+          </div>
+        </div>
         <h3>High Basketball IQ</h3>
         <p>Read the court, make smart plays, and control the game pace.</p>
+        <button class="learn-more-btn">Learn More</button>
+        
+        <!-- Expandable Details -->
+        <div class="program-details">
+          <h4>What You'll Learn:</h4>
+          <ul>
+            <li><i class="fa-solid fa-check"></i> Game film analysis and breakdown</li>
+            <li><i class="fa-solid fa-check"></i> Offensive and defensive strategies</li>
+            <li><i class="fa-solid fa-check"></i> Decision-making under pressure</li>
+            <li><i class="fa-solid fa-check"></i> Leadership and communication skills</li>
+          </ul>
+          <div class="program-stats">
+            <div class="stat">
+              <span class="stat-number">6</span>
+              <span class="stat-label">Sessions</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">90m</span>
+              <span class="stat-label">Per Session</span>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div class="program">
-        <img src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2022/05/16/16527093679340.jpg" alt="Strength and Conditioning">
+      <div class="program" data-program="strength">
+        <div class="program-image-container">
+          <img src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2022/05/16/16527093679340.jpg" alt="Strength and Conditioning">
+          <div class="program-overlay">
+            <i class="fa-solid fa-basketball"></i>
+          </div>
+        </div>
         <h3>Strength & Conditioning</h3>
         <p>Boost endurance, power, and agility to dominate every match.</p>
+        <button class="learn-more-btn">Learn More</button>
+        
+        <!-- Expandable Details -->
+        <div class="program-details">
+          <h4>What You'll Learn:</h4>
+          <ul>
+            <li><i class="fa-solid fa-check"></i> Explosive vertical jump training</li>
+            <li><i class="fa-solid fa-check"></i> Speed and agility drills</li>
+            <li><i class="fa-solid fa-check"></i> Core strength development</li>
+            <li><i class="fa-solid fa-check"></i> Injury prevention techniques</li>
+          </ul>
+          <div class="program-stats">
+            <div class="stat">
+              <span class="stat-number">12</span>
+              <span class="stat-label">Sessions</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">75m</span>
+              <span class="stat-label">Per Session</span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -96,7 +204,7 @@
   <!-- Contact -->
   <section id="contact" class="contact">
     <h2>Contact Us</h2>
-    <p>Got questions or want to register? Let’s connect!</p>
+    <p>Got questions or want to register? Let's connect!</p>
 
     <div class="contact-info">
       <div class="contact-item">
